@@ -2,7 +2,7 @@
   "name": "compufour/uuid",
   "description": "Generate UUID's for deacoplated systems integration",
   "minimum-stability": "dev",
-  "license": "CompuFácil Software LTDA.",
+  "license": "CompuFacil Software LTDA.",
   "authors": [
     {
       "name": "Weverson Cachinsky",
