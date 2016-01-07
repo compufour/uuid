@@ -6,7 +6,7 @@ namespace Compufour\Uuid;
  */
 interface UuidInterface
 {
-    public function create(int $entityId);
+    public function generate(int $entityId);
     public function setIdentifier(string $entityName);
 }
 
