@@ -1,6 +1,6 @@
 {
   "name": "compufour/uuid",
-  "description": "Generate UUID's for deacoplated systems integration",
+  "description": "Generate UUID's for decoupled systems integration",
   "minimum-stability": "dev",
   "license": "CompuFacil Software LTDA.",
   "authors": [
