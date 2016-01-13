@@ -13,9 +13,11 @@ class Uuid implements UuidInterface
 
     private $identifier;
 
-    public function generate(int $entityId) : string
+    public function generate(int $name) : string
     {
-        return UuidLibrary::uuid4();
+        $generated = UuidLibrary::fromBytes($this->getIdentifier());
+
+        return UuidLibrary::uuid5($generated, $name);
     }
 
     public function getIdentifier() : string
